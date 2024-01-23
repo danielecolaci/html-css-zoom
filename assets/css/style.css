@@ -6,4 +6,58 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: black;
+}
+
+nav {
+    background-color: #222222;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.audio-video {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.fa-angle-up {
+    font-size: 12px;
+}
+
+.button {
+    padding: 0 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mouse {
+    color: white;
+    height: 100%;
+    font-size: 14px;
+}
+
+.end {
+    color: red;
+    background-color: #4A4A4A;
+    height: 100%;
+    padding: 0 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
