@@ -89,7 +89,8 @@ nav {
 }
 
 .user {
-    background-color: aqua;
+    background-image: url('https://picsum.photos/700/200');
+    background-size: contain;
     height: 144px;
     width: 240px;
     margin: 8px 4px;
@@ -100,15 +101,15 @@ nav {
 }
 
 .info {
-    background-color: grey;
+    background-color: rgba(150, 150, 150, .5);
+    width: 44%;
     position: relative;
-    bottom: 1px;
+    top: 118px;
     left: 0;
 }
 
 span {
     color: white;
     font-size: 14px;
-    padding: 4px;
-    margin: 0;
+    padding: 4px 0;
 }
