@@ -79,6 +79,11 @@ nav {
     height: 100%;
 }
 
+.end:hover {
+    background-color: #313131;
+    font-weight: bold;
+}
+
 /* Main */
 
 .partecipants {
@@ -101,7 +106,7 @@ nav {
 }
 
 .info {
-    background-color: rgba(150, 150, 150, .5);
+    background-color: rgba(80, 80, 80, .5);
     width: 44%;
     position: relative;
     top: 118px;
@@ -112,4 +117,8 @@ span {
     color: white;
     font-size: 14px;
     padding: 4px 0;
+}
+
+.info:hover {
+    background-color: rgba(80, 80, 80, .8);
 }
