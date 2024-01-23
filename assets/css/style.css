@@ -87,7 +87,10 @@ nav {
 /* Main */
 
 .partecipants {
-    padding: 2%;
+    padding: 1%;
+    padding-bottom: 100px;
+    height: calc(100vh - 80px);
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -97,8 +100,8 @@ nav {
     background-image: url('https://picsum.photos/700/200');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 144px;
-    width: 240px;
+    height: calc(100vh/4 - 40px);
+    width: 14vw;
     margin: 8px 4px;
 }
 
@@ -108,16 +111,17 @@ nav {
 
 .info {
     background-color: rgba(80, 80, 80, .5);
-    width: 44%;
+    width: fit-content;
     position: relative;
-    top: 118px;
+    bottom: 0px;
     left: 0;
+    z-index: 20;
 }
 
 span {
     color: white;
     font-size: 14px;
-    padding: 4px 0;
+    padding: 4px 2px;
 }
 
 .info:hover {
