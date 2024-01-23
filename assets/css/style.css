@@ -9,6 +9,8 @@ body {
     background-color: black;
 }
 
+/* Nav */
+
 nav {
     background-color: #222222;
     height: 80px;
@@ -75,4 +77,38 @@ nav {
 .button:hover {
     background-color: gray;
     height: 100%;
+}
+
+/* Main */
+
+.partecipants {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user {
+    background-color: aqua;
+    height: 144px;
+    width: 240px;
+    margin: 8px 4px;
+}
+
+.fa-microphone-slash {
+    font-size: 16px;
+}
+
+.info {
+    background-color: grey;
+    position: relative;
+    bottom: 1px;
+    left: 0;
+}
+
+span {
+    color: white;
+    font-size: 14px;
+    padding: 4px;
+    margin: 0;
 }
