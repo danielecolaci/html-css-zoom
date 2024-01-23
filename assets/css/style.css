@@ -21,14 +21,19 @@ nav {
     justify-content: space-between;
 }
 
-.audio-video {
+.pulsanti {
     height: 100%;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 }
 
 .fa-solid {
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.fa-brands {
     color: white;
     font-size: 24px;
     padding: 5px;
@@ -49,6 +54,10 @@ nav {
     color: white;
     height: 100%;
     font-size: 14px;
+}
+
+.green {
+    color: #4BC800;
 }
 
 .end {
