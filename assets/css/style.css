@@ -95,7 +95,8 @@ nav {
 
 .user {
     background-image: url('https://picsum.photos/700/200');
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 144px;
     width: 240px;
     margin: 8px 4px;
